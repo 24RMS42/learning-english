@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_learn_image"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="@dimen/main_margin_half"
+        android:minHeight="120dp"
+        android:minWidth="120dp"
+        android:src="@drawable/i_alligator" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_eName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--android:background="@drawable/shape_rounded"-->
+        <TextView
+            android:id="@+id/tv_learn_ename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/e_word_btn"
+            android:gravity="center"
+            android:text=""
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_circle"
+            android:padding="10dp"
+            android:src="@drawable/ic_volume"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <!--android:background="@drawable/shape_rounded_blue"-->
+
+        <TextView
+            android:id="@+id/tv_learn_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/p_word_btn"
+            android:gravity="right|center_vertical"
+            android:paddingRight="60dp"
+            android:text="asdasd"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shape_circle_blue"
+            android:padding="10dp"
+            android:scaleX="-1"
+            android:src="@drawable/ic_volume"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

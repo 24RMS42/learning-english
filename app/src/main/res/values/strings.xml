@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">English for Kids</string>
+    <string name="app_name_p">آموزش انگلیسی‌ - مقدماتی</string>
+
+    <string name="skip">SKIP</string>
+    <string name="listen">LISTEN</string>
+
+    <string-array name="school_drop_down_video">
+        <item>وسایل مدرسه</item>
+        <item>کره زمین</item>
+        <item>آب و هوا</item>
+        <item>جغرافیا</item>
+        <item>فصل ها</item>
+        <item>احساسات</item>
+        <item>شغل ها</item>
+        <item>شهر</item>
+        <item>نقشه</item>
+        <item>منظومه شمسی</item>
+
+        <item>حروف الفبا</item>
+        <item>اعداد</item>
+        <item>میوه و سبزیجات</item>
+        <item>رنگها</item>
+        <item>شکل ها</item>
+        <item>لباس‌ها</item>
+        <item>اعضای بدن</item>
+        <item>صدا ها</item>
+        <item>خانواده</item>
+        <item>اسباب بازی‌ ها</item>
+    </string-array>
+</resources>

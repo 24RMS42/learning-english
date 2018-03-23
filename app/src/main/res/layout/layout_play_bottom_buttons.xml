@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_height="70dp"
+    android:id="@+id/ll_botttom_buttons"
+    android:layout_marginBottom="@dimen/main_margin_half"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/ib_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/main_margin_big"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_skip" />
+
+    <ImageButton
+        android:id="@+id/ib_e_name"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="@dimen/main_margin_big"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_e_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/ib_p_name"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="@dimen/main_margin_big"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_p_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/ib_animal_sound"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_animal_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

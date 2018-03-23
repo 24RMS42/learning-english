@@ -1,0 +1,246 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    tools:context="timer.fityfor.me.beginner.fragments.LearnFragment">
+
+    <ImageView
+        android:id="@+id/iv_background_learn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_learn_real_image_not_aquatics"/>
+
+    <LinearLayout
+        android:id="@+id/linerLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_learn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_whild"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_whild"
+                android:checked="true"
+                android:gravity="center_horizontal" />
+
+            <RadioButton
+                android:id="@+id/rb_domestic"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_domestic"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_birds"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_birds"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_aquatic"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_aquatic"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_transportation"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_transportations"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_verbs"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_verbs"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_musical"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_musical"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_video"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:button="@drawable/selector_video"
+                android:checked="false"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp" />
+            <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<Spinner-->
+            <!--android:id="@+id/sp_video"-->
+            <!--android:layout_width="70dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:entries="@array/drop_down_video" />-->
+            <!--</RelativeLayout>-->
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linerLayout">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/video_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginStart="60dp"
+            android:background="@color/white"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/video_default_1" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_learn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp" />
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/videoImage"
+        android:layout_width="200dp"
+        android:layout_height="220dp"
+        android:layout_alignEnd="@+id/linerLayout"
+        android:layout_alignRight="@+id/linerLayout"
+        android:layout_below="@+id/linerLayout"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/videos_frame"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="40dp"
+        android:paddingTop="20dp"
+        android:visibility="invisible">
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_video"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:text="نمایش"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@color/red"-->
+        <!--android:textStyle="bold"-->
+        <!--android:visibility="invisible" />-->
+
+        <!--<Spinner-->
+        <!--android:id="@+id/sp_video"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="false"-->
+        <!--android:layout_centerInParent="false"-->
+        <!--android:layout_centerVertical="false"-->
+        <!--android:layout_marginBottom="30dp"-->
+        <!--android:layout_marginLeft="55dp"-->
+        <!--android:layout_marginRight="45dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:background="@color/transparent"-->
+        <!--android:entries="@array/drop_down_video"-->
+        <!--android:popupBackground="@color/transparent"-->
+        <!--android:textStyle="bold"-->
+        <!--android:theme="@style/SpinnerStyle" />-->
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/iv_back_learn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/main_margin"
+        android:src="@drawable/back_button" />
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/main_margin"
+        android:src="@drawable/main_exit_ic" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1368614258949399/2392233392">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
