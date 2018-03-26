@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.StateListDrawable;
+import android.util.Log;
 
 import java.lang.ref.WeakReference;
 
@@ -17,6 +18,7 @@ import timer.fityfor.me.beginner.controllers.ViewController;
 public class GeneralMetods {
 
     public static WeakReference<Drawable> getSingleImageFromDrawable(String imageRes) {
+        Log.d("Matata===", imageRes);
         Context context = ViewController.getViewController().getContex();
         Drawable drawable = context.getResources().getDrawable(context.getResources()
                 .getIdentifier(imageRes, "drawable", context.getPackageName()));
