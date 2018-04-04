@@ -6,26 +6,26 @@
     <string name="listen">LISTEN</string>
 
     <string-array name="school_drop_down_video">
-        <item>وسایل مدرسه</item>
-        <item>کره زمین</item>
-        <item>آب و هوا</item>
-        <item>جغرافیا</item>
-        <item>فصل ها</item>
-        <item>احساسات</item>
-        <item>شغل ها</item>
-        <item>شهر</item>
-        <item>نقشه</item>
-        <item>منظومه شمسی</item>
+        <item>درس اول</item>
+        <item>درس دوم</item>
+        <item>درس سوم</item>
+        <item>درس چهارم</item>
+        <item>درس پنجم</item>
+        <item>درس ششم</item>
+        <item>درس هفتم</item>
+        <item>درس هشتم</item>
+        <item>درس نهم</item>
+        <item>درس دهم</item>
 
-        <item>حروف الفبا</item>
-        <item>اعداد</item>
-        <item>میوه و سبزیجات</item>
-        <item>رنگها</item>
-        <item>شکل ها</item>
-        <item>لباس‌ها</item>
-        <item>اعضای بدن</item>
-        <item>صدا ها</item>
-        <item>خانواده</item>
-        <item>اسباب بازی‌ ها</item>
+        <item>درس یازدهم</item>
+        <item>درس دوازدهم</item>
+        <item>درس سیزدهم</item>
+        <item>درس چهاردهم</item>
+        <item>درس پانزدهم</item>
+        <item>درس شانزدهم</item>
+        <item>درس هفدهم</item>
+        <item>درس هجدهم</item>
+        <item>درس نوزدهم</item>
+        <item>درس بیستم</item>
     </string-array>
 </resources>
