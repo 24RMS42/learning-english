@@ -47,7 +47,7 @@ public class ConvertAnimalFromModelToEntity {
             Uri pVoice = Uri.parse("android.resource://" + cntx.getPackageName() + "/raw/" + "p_" + animal.getName());
             Drawable cImage = null;
             Drawable aImage = null;
-            Uri animalVoice = Uri.parse("android.resource://" + cntx.getPackageName() + "/raw/" + "s_" + animal.getName());
+            Uri animalVoice = Uri.parse("android.resource://" + cntx.getPackageName() + "/raw/" + "e_" + animal.getName());
 
             timer.fityfor.me.beginner.entities.Animal animalEntity = new timer.fityfor.me.beginner.entities.Animal(eName, pName, eVoice, pVoice, null, null, animalVoice);
             animalEntity.setCartoon(animal.isCartoon());
