@@ -222,6 +222,7 @@ public class LearnFragment extends Fragment implements RecyclerViewOnClickListen
                 imageDefault.setVisibility(View.VISIBLE);
                 videoImageList.setVisibility(View.INVISIBLE);
 
+//                uri = Uri.parse(path + "p_lesson_" + (position+1) + ".mp4");
                 if (position >= 10) {
                     uri = Uri.parse(path + "p_1_lesson_" + (position-9) + ".mp4");
                 } else {
