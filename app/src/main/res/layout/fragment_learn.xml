@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:gravity="center_vertical|center_horizontal"
         android:orientation="horizontal">
 
@@ -34,7 +34,7 @@
             <RadioButton
                 android:id="@+id/rb_whild"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_whild"
                 android:checked="true"
@@ -45,7 +45,7 @@
             <RadioButton
                 android:id="@+id/rb_domestic"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_domestic"
                 android:checked="false"
@@ -56,7 +56,7 @@
             <RadioButton
                 android:id="@+id/rb_birds"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_birds"
                 android:checked="false"
@@ -67,7 +67,7 @@
             <RadioButton
                 android:id="@+id/rb_aquatic"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_aquatic"
                 android:checked="false"
@@ -78,7 +78,7 @@
             <RadioButton
                 android:id="@+id/rb_transportation"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_transportations"
                 android:checked="false"
@@ -89,7 +89,7 @@
             <RadioButton
                 android:id="@+id/rb_verbs"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_verbs"
                 android:checked="false"
@@ -100,7 +100,7 @@
             <RadioButton
                 android:id="@+id/rb_musical"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_musical"
                 android:checked="false"
@@ -111,7 +111,7 @@
             <RadioButton
                 android:id="@+id/rb_video"
                 android:layout_width="wrap_content"
-                android:layout_height="75dp"
+                android:layout_height="65dp"
                 android:layout_weight="1"
                 android:button="@drawable/selector_video"
                 android:checked="false"
@@ -150,14 +150,15 @@
 
         <ImageView
             android:id="@+id/video_default"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_marginBottom="40dp"
             android:layout_marginEnd="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:layout_marginStart="60dp"
             android:background="@color/white"
+            android:contentDescription="@null"
             android:visibility="invisible"
             app:srcCompat="@drawable/video_default_1" />
 
