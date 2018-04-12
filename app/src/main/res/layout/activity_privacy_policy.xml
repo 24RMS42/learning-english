@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/privacy_policy"
-    tools:context="timer.fityfor.me.beginner.activities.PrivacyPolicyActivity">
+    tools:context="timer.fity.me.beginner.activities.PrivacyPolicyActivity">
 
     <ImageView
         android:id="@+id/btn_agree_privacy_policy"

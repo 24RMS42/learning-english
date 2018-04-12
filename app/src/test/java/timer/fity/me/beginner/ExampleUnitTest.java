@@ -1,4 +1,4 @@
-package timer.fityfor.me.learnenglishbill;
+package timer.fity.me.learnenglishbill;
 
 import org.junit.Test;
 

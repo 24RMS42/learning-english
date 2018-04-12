@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clickable="true"
-    tools:context="timer.fityfor.me.beginner.fragments.PlayFragment">
+    tools:context="timer.fity.me.beginner.fragments.PlayFragment">
 
     <ImageView
         android:layout_width="match_parent"
@@ -11,7 +11,7 @@
         android:id="@+id/iv_background_play"
         android:background="@drawable/background_learn_real_image_not_aquatics"/>
 
-    <timer.fityfor.me.beginner.entities.Game
+    <timer.fity.me.beginner.entities.Game
         android:id="@+id/game"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

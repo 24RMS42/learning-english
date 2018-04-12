@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/level_selection_bc"
     android:clickable="true"
-    tools:context="timer.fityfor.me.beginner.fragments.LevelSelectionFragment">
+    tools:context="timer.fity.me.beginner.fragments.LevelSelectionFragment">
 
 
     <LinearLayout
